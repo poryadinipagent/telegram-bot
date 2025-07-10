@@ -14,7 +14,7 @@ ADMIN_ID = int(os.getenv("ADMIN_ID"))
 PDF_FILE_PATH = "file.pdf"
 USERS_FILE = "users.json"
 
-bot = Bot(token=TOKEN, parse_mode=ParseMode.HTML)
+bot = Bot(token=7711367749:AAGMgqf_G703pzE0MOKleeE8VsPR6w5zb54, parse_mode=ParseMode.HTML)
 dp = Dispatcher()
 
 try:
