@@ -8,9 +8,9 @@ from aiogram.utils.keyboard import InlineKeyboardBuilder
 from aiocron import crontab
 import os
 
-TOKEN = os.getenv("BOT_TOKEN")
-CHANNEL_USERNAME = "@your_channel_username"
-ADMIN_ID = int(os.getenv("ADMIN_ID", "123456789"))
+TOKEN = os.getenv("7711367749:AAGMgqf_G703pzE0MOKleeE8VsPR6w5zb54")
+CHANNEL_USERNAME = "@poryadindom"
+ADMIN_ID = int(os.getenv("1067589336"))
 PDF_FILE_PATH = "file.pdf"
 USERS_FILE = "users.json"
 
