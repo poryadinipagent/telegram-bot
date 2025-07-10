@@ -10,7 +10,11 @@ import os
 
 TOKEN = os.getenv("TOKEN")
 CHANNEL_USERNAME = "@poryadindom"
-ADMIN_ID = int(os.getenv("ADMIN_ID"))
+admin_id_str = os.getenv("ADMIN_ID")
+if not admin_id_str:
+    raise ValueError("ADMIN_ID environment variable is not set")
+ADMIN_ID = int(admin_id_str)
+
 PDF_FILE_PATH = "file.pdf"
 USERS_FILE = "users.json"
 
